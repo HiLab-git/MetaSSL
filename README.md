@@ -1,4 +1,4 @@
-# MetaSSL: A General Heterogeneous Loss for Semi-Supervised Medical Image Segmentation
+# [TMI 2025] MetaSSL: A General Heterogeneous Loss for Semi-Supervised Medical Image Segmentation
 ## 📌 Overall Framework
 ![Framework](MetaSSL.png)
 
@@ -13,20 +13,12 @@ We provide `code`, `data_split` and `models` (Include pre-trained models and ful
 
 ### To train a 2D model
 ```
-python ./code/ACDC_train_CPS.py  #for ACDC training
-python ./code/ACDC_train_MT.py  #for ACDC training
-python ./code/ACDC_train_CCT.py  #for ACDC training
-python ./code/ACDC_train_RDrop.py  #for ACDC training
-python ./code/ACDC_train_Fixmatch.py  #for ACDC training
+python ./code/train_MetaSSL_2D.py  
 ``` 
 
 ### To train a 3D model
 ```
-python ./code/LA_train_CPS.py  #for LA training
-python ./code/LA_train_MT.py  #for LA training
-python ./code/LA_train_CCT.py  #for LA training
-python ./code/LA_train_RDrop.py  #for LA training
-python ./code/LA_train_Fixmatch.py  #for LA training
+python ./code/train_MetaSSL_3D.py 
 ``` 
 
 ### To test a model
