@@ -23,8 +23,8 @@ python ./code/train_MetaSSL_3D.py
 
 ### To test a model
 ```
-python ./code/test_ACDC.py  #for ACDC testing
-python ./code/test_LA.py  #for LA testing
+python ./code/test_2D.py  #for ACDC testing
+python ./code_3D/test_3D.py  #for LA testing
 ```
 
 
@@ -37,6 +37,5 @@ Data could be got at:
 ### Environment Setup
 
 We recommend using Python 3.8+ with PyTorch 2.3.1 and MONAI 1.3+.
-
 
 
