@@ -18,7 +18,7 @@ python ./code/train_MetaSSL_2D.py
 
 ### To train a 3D model
 ```
-python ./code/train_MetaSSL_3D.py 
+python ./code_3D/train_MetaSSL_3D.py 
 ``` 
 
 ### To test a model
